@@ -1,35 +1,42 @@
-# compiled output
+# Ignore node_modules
+node_modules
+
+# Ignore build output
 /dist
-/node_modules
 
-# Logs
-logs
+# Ignore environment files
+.env
+
+# Ignore log files
 *.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
 
-# OS
+# Ignore dependency directories
+pids
+logs
+results
+
+# Ignore any personal IDE or code editor settings
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore Mac-specific files
 .DS_Store
 
-# Tests
-/coverage
-/.nyc_output
+# Ignore temporary files
+*.tmp
 
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+# Ignore .gitattributes files
 
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.gitattributes
+
+# Ignore system files that might appear on external web servers
+Thumbs.db
+ehthumbs.db
+
+# Ignore compiled TypeScript files
+*.js
